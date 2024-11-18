@@ -1,0 +1,28 @@
+{
+    "stand": {
+        "parent_foleder" : "D:\\Program\\Python\\EpsonLabeling\\environment_test",
+        "stand_tool_name" : "workpieceData_20240524"
+    },
+    "yolact": {
+        "model_weight_path" : "model_weight/yolact/yolact_base_35909_1580000.pth",
+        "cuda" : true,
+        "display_lincomb" : false,
+        "crop" : false,
+        "score_threshold" : 0.15,
+        "fast_nms" : true,
+        "cross_class_nms" : false,
+        "mask_proto_debug" : false
+    },
+    "yolov5": {
+        "model_weight_path2" : "D:\\Program\\Python\\EpsonLabeling\\model_weight\\yolov5\\yolo_240122.pt",
+        "model_weight_path" : "D:\\Program\\Python\\EpsonLabeling\\model_weight\\yolov5\\yolov5l_0218.pt",
+        "model_data_path" : "model_weight/yolov5/coco128.yaml",
+        "model_label_path" : "D:\\Program\\Python\\EpsonLabeling\\model_weight\\label\\labels_240122.txt"
+    },
+    "push_back": {
+        "angle_match_deviation": 0.05,
+        "ratio_match_deviation": 0.05,
+        "hole_match_deviation": -0.0,
+        "try_time": 1
+    }
+}
